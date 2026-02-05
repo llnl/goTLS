@@ -5,16 +5,16 @@ go 1.24.0
 toolchain go1.24.1
 
 require (
-	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358
+	github.com/Azure/go-ntlmssp v0.1.0
 	github.com/bgentry/speakeasy v0.2.0
 	github.com/hashicorp/go-uuid v1.0.3
 	github.com/jcmturner/gofork v1.7.6
 	github.com/jcmturner/gokrb5/v8 v8.4.5-0.20230506163647-855dbc707a37
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/spf13/cobra v1.10.1
+	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
 	github.com/stretchr/testify v1.11.1
-	golang.org/x/crypto v0.42.0
+	golang.org/x/crypto v0.46.0
 	gopkg.in/jcmturner/aescts.v1 v1.0.1
 	gopkg.in/jcmturner/dnsutils.v1 v1.0.1
 	gopkg.in/jcmturner/goidentity.v3 v3.0.0
@@ -42,9 +42,9 @@ require (
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/net v0.44.0 // indirect
-	golang.org/x/sys v0.36.0 // indirect
-	golang.org/x/text v0.29.0 // indirect
+	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/sys v0.40.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
