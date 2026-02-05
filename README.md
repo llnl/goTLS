@@ -1,9 +1,8 @@
 goTLS
 =====
 goTLS is an automated TLS certificate issuance and management tool for Windows,
-Mac, and Linux. It can generate keys, CSRs, and optionally obtain the
-certificate with an internal Active Directory Certificate Services (ADCS)
-endpoint.
+Mac, and Linux. It can generate keys, CSRs, and obtain the certificate with an
+internal Active Directory Certificate Services (ADCS) endpoint.
 
 
 Install

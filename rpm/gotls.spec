@@ -12,12 +12,8 @@ BuildRequires:  git
 
 %description
 gotls is an automated TLS certificate issuance and management tool. It can
-generate keys, CSRs, and optionally obtain the certificate with an internal
+generate keys, CSRs, and obtain the certificate with an internal
 Active Directory Certificate Services endpoint.
-
-# https://github.com/rpm-software-management/rpm/issues/367
-%global _missing_build_ids_terminate_build 0
-%define debug_package %{nil}
 
 %prep
 %autosetup
