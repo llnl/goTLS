@@ -253,6 +253,7 @@ func GetKey(keyRequest *KeyRequest) (key any, err error) {
 	}
 	if !success {
 		if key, err = x509.ParseECPrivateKey(block.Bytes); err == nil { // SEC1 ECSDA key
+			success = true
 			keyRequest.Type = x509.ECDSA
 			keyRequest.Container = SEC1
 		}
