@@ -23,6 +23,12 @@ man: vendor
 bash: vendor
 	go run main.go completion bash > rpm/bash/completion.bash
 
+test: vendor
+	go test -v -mod=vendor ./...
+
+test-coverage: vendor
+	go test -v -mod=vendor -cover ./...
+
 wininstaller: build
 	makensis wininstaller.nsi && chmod +x $(BIN_DIR)/$(BIN_INSTALLER_NAME)
 
@@ -30,4 +36,4 @@ clean:
 	go clean
 	rm -f $(BIN_DIR)/*
 
-.PHONY: vendor build clean
+.PHONY: vendor build clean test test-coverage
